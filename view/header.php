@@ -15,17 +15,17 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="public/images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="public/css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="public/css/custom.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -62,8 +62,8 @@
 					<div class="login-box">
 						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In" onchange="document.location.href=this.value">
                             <option>Sign here</option>
-                            <option value="signin.php">Sign In</option>
-							<option value="register.php">Register Here</option>
+                            <option value="view/signin.php">Sign In</option>
+							<option value="view/register.php">Register Here</option>
 							
 						</select>
 					</div>
@@ -113,7 +113,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="index.php"><img src="public/images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -121,20 +121,20 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="view/about.php">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
-								<li><a href="shop.php">Sidebar Shop</a></li>
-								<li><a href="shop-detail.php">Shop Detail</a></li>
-                                <li><a href="cart.php">Cart</a></li>
-                                <li><a href="checkout.php">Checkout</a></li>
-                                <li><a href="my-account.php">My Account</a></li>
-                                <li><a href="wishlist.php">Wishlist</a></li>
+								<li><a href="view/shop.php">Sidebar Shop</a></li>
+								<li><a href="view/shop-detail.php">Shop Detail</a></li>
+                                <li><a href="view/cart.php">Cart</a></li>
+                                <li><a href="view/checkout.php">Checkout</a></li>
+                                <li><a href="view/my-account.php">My Account</a></li>
+                                <li><a href="view/wishlist.php">Wishlist</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="view/gallery.php">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="view/contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -160,17 +160,17 @@
                 <li class="cart-box">
                     <ul class="cart-list">
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="public/images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Delica omtantur </a></h6>
                             <p>1x - <span class="price">$80.00</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="public/images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Omnes ocurreret</a></h6>
                             <p>1x - <span class="price">$60.00</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="public/images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Agam facilisis</a></h6>
                             <p>1x - <span class="price">$40.00</span></p>
                         </li>

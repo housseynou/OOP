@@ -6,7 +6,7 @@
     ?>
     
         <div class="container">
-            <form class="row g-3 needs-validation" novalidate>
+            <form class="row g-3 needs-validation" action="#" method="post" novalidate>
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">First name</label>
                     <input type="text" name="firstName" class="form-control" id="validationCustom01" placeholder="First name" required>

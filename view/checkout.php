@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Basic -->
     <?php
-        require_once("header.php");
+        require_once("view/header.php");
     ?>
 
     <!-- Start All Title Box -->
@@ -179,11 +179,11 @@
                                 <div class="col-md-6 mb-3">
                                     <div class="payment-icon">
                                         <ul>
-                                            <li><img class="img-fluid" src="images/payment-icon/1.png" alt=""></li>
-                                            <li><img class="img-fluid" src="images/payment-icon/2.png" alt=""></li>
-                                            <li><img class="img-fluid" src="images/payment-icon/3.png" alt=""></li>
-                                            <li><img class="img-fluid" src="images/payment-icon/5.png" alt=""></li>
-                                            <li><img class="img-fluid" src="images/payment-icon/7.png" alt=""></li>
+                                            <li><img class="img-fluid" src="public/images/payment-icon/1.png" alt=""></li>
+                                            <li><img class="img-fluid" src="public/images/payment-icon/2.png" alt=""></li>
+                                            <li><img class="img-fluid" src="public/images/payment-icon/3.png" alt=""></li>
+                                            <li><img class="img-fluid" src="public/images/payment-icon/5.png" alt=""></li>
+                                            <li><img class="img-fluid" src="public/images/payment-icon/7.png" alt=""></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -275,7 +275,7 @@
                                 </div>
                                 <hr> </div>
                         </div>
-                        <div class="col-12 d-flex shopping-box"> <a href="checkout.html" class="ml-auto btn hvr-hover">Place Order</a> </div>
+                        <div class="col-12 d-flex shopping-box"> <a href="view/checkout.php" class="ml-auto btn hvr-hover">Place Order</a> </div>
                     </div>
                 </div>
             </div>
@@ -285,7 +285,7 @@
     <!-- End Cart -->
 
     <?php
-        require_once("footer.php");
+        require_once("view/footer.php");
     ?>
 
 </body>

@@ -3,7 +3,7 @@
 <!-- Basic -->
 
     <?php
-        require_once("header.php");
+        require_once("view/header.php");
     ?>
 
     <!-- Start All Title Box -->
@@ -43,7 +43,7 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-01.jpg" alt="" />
+									<img class="img-fluid" src="public/images/img-pro-01.jpg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
@@ -67,7 +67,7 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-02.jpg" alt="" />
+									<img class="img-fluid" src="public/images/img-pro-02.jpg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
@@ -91,7 +91,7 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-03.jpg" alt="" />
+									<img class="img-fluid" src="public/images/img-pro-03.jpg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
@@ -169,7 +169,7 @@
                         </div>
                         <hr> </div>
                 </div>
-                <div class="col-12 d-flex shopping-box"><a href="checkout.html" class="ml-auto btn hvr-hover">Checkout</a> </div>
+                <div class="col-12 d-flex shopping-box"><a href="view/checkout.php" class="ml-auto btn hvr-hover">Checkout</a> </div>
             </div>
 
         </div>
@@ -177,7 +177,7 @@
     <!-- End Cart -->
 
     <?php
-        require_once("footer.php");
+        require_once("view/footer.php");
     ?>
 </body>
 
