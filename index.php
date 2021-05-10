@@ -1,7 +1,7 @@
 <?php
-    require_once("view/header.php");
-    require_once("view/body.php");
-    require_once("view/footer.php");
+    require_once("header.php");
+    require_once("body.php");
+    require_once("footer.php");
     require_once("model/Model.php");
 
     try{

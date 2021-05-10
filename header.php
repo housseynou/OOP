@@ -60,9 +60,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div class="login-box">
-						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In" onchange="location = this.value">
-							<option><a href="register.php">Register Here</a></option>
-							<option><a href="signin.php">Sign In</a></option>
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In" onchange="document.location.href=this.value">
+                            <option>Sign here</option>
+                            <option value="signin.php">Sign In</option>
+							<option value="register.php">Register Here</option>
+							
 						</select>
 					</div>
                     <div class="text-slid-box">
@@ -196,4 +198,5 @@
         </div>
     </div>
     <!-- End Top Search -->
+</body>
     </html>
