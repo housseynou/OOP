@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Basic -->
     <?php
-        require_once("view/header.php");
+        require_once("header.php");
     ?>
 
     <!-- Start All Title Box -->
@@ -87,7 +87,7 @@
     <!-- End Cart -->
 
     <?php
-        require_once("view/footer.php");
+        require_once("footer.php");
     ?>
 
 </body>

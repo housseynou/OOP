@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Basic -->
     <?php
-        require_once("view/header.php");
+        require_once("header.php");
     ?>
 
     <!-- Start All Title Box -->
@@ -275,7 +275,7 @@
                                 </div>
                                 <hr> </div>
                         </div>
-                        <div class="col-12 d-flex shopping-box"> <a href="view/checkout.php" class="ml-auto btn hvr-hover">Place Order</a> </div>
+                        <div class="col-12 d-flex shopping-box"> <a href="checkout.php" class="ml-auto btn hvr-hover">Place Order</a> </div>
                     </div>
                 </div>
             </div>
@@ -285,7 +285,7 @@
     <!-- End Cart -->
 
     <?php
-        require_once("view/footer.php");
+        require_once("footer.php");
     ?>
 
 </body>
