@@ -42,13 +42,13 @@
 					</a>
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-example-1" data-slide-to="0" class="active">
-                                <img class="d-block w-100 img-fluid" src="public/images/smp-img-01.jpg" alt="" />
+                                <img class="d-block w-100 img-fluid" src="images/smp-img-01.jpg" alt="" />
                             </li>
                             <li data-target="#carousel-example-1" data-slide-to="1">
-                                <img class="d-block w-100 img-fluid" src="public/images/smp-img-02.jpg" alt="" />
+                                <img class="d-block w-100 img-fluid" src="images/smp-img-02.jpg" alt="" />
                             </li>
                             <li data-target="#carousel-example-1" data-slide-to="2">
-                                <img class="d-block w-100 img-fluid" src="public/images/smp-img-03.jpg" alt="" />
+                                <img class="d-block w-100 img-fluid" src="images/smp-img-03.jpg" alt="" />
                             </li>
                         </ol>
                     </div>
@@ -145,7 +145,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -164,7 +164,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -183,7 +183,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -202,7 +202,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -221,7 +221,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -240,7 +240,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -259,7 +259,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -278,7 +278,7 @@
                         <div class="item">
                             <div class="products-single fix">
                                 <div class="box-img-hover">
-                                    <img src="public/images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                                    <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
                                         <ul>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>

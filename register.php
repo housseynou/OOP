@@ -6,7 +6,7 @@
     ?>
     
         <div class="container">
-            <form class="row g-3 needs-validation" action="#" method="post" novalidate>
+            <form class="row g-3 needs-validation" action="" method="post" novalidate>
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">First name</label>
                     <input type="text" name="firstName" class="form-control" id="validationCustom01" placeholder="First name" required>
@@ -25,7 +25,7 @@
                     <label for="validationCustomEmail" class="form-label">Email</label>
                     <div class="input-group has-validation">
                     <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="Email" name="Email" class="form-control" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
+                    <input type="Email" name="email" class="form-control" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
                     <div class="invalid-feedback">
                         Please enter a valid email address.
                     </div>
@@ -34,24 +34,15 @@
                 <div class="col-md-6">
                     <label for="validationCustomPassword" class="form-label">Password</label>
                     <div class="input-group has-validation">
-                    <input type="Password" name="Password" class="form-control" id="validationCustomPassword" aria-describedby="inputGroupPrepend" required>
+                    <input type="Password" name="password" class="form-control" id="validationCustomPassword" aria-describedby="inputGroupPrepend" required>
                     <div class="invalid-feedback">
                         Please choose a password.
                     </div>
                     </div>
                 </div>
                 
-                <div class="col-12">
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                        Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback">
-                        You must agree before submitting.
-                    </div>
-                    </div>
-                </div>
+                
+                
                 <div class="col-12">
                     <button class="btn btn-primary" type="submit">Submit form</button>
                 </div>
